@@ -1,0 +1,42 @@
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+.container {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    /* position: center; */
+    bottom: 500px;
+    right: 50px;
+    box-shadow: 5px 5px 20px #383838;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.btn {
+
+    width: 130px;
+    margin:10px ;
+}
+
+input {
+    margin: 10px;
+    width:250px;
+}
+
+
+/* .header {
+    width: 100%;
+    height: 100px;
+    background-color: #116466;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */

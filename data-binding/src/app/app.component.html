@@ -1,0 +1,22 @@
+<!-- <div class="home"> -->
+
+<div class="container"> 
+  <!-- <input type="text" [value]="myValue" (input) = "changeValue($event)"> -->
+   <!-- we can replace it by ngModal its a part of form modal so we have to import in app.component.ts -->
+ 
+  <!-- <input type="text" [(ngModel)] = "myValue"> -->
+  <h2>Two Way Data Binding</h2>
+  <!-- <div>
+    {{ myValue }}
+  </div> -->
+  <input type="text" [(ngModel)]= "formValue" >
+<h2>
+  {{formValue}}
+</h2>
+<button class="btn btn-primary" [disabled]="isBtnDisabled" (click)="checkForm()" >Submit</button>
+  <!-- <button class = "btn btn-primary"></button> -->
+</div>
+
+<app-some-directive> </app-some-directive>
+
+<!-- </div> -->
